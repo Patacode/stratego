@@ -1,0 +1,71 @@
+Stratego - Règles
+-----------------
+
+Ce jeu dispose de 80 pions de couleur (40 rouges et 40 bleus) représentant les armées des 2 joueurs.
+
+Les pions de chaque joueur se compose des pièces suivantes (classés par rang avec entre () leur nombre
+dans l'armée de chacun des joueurs):
+
+    0 Drapeau (1)
+    1 Espion (1)
+    2 Éclaireur (8)
+    3 Démineur (5)
+    4 Sergent (4)
+    5 Lieutenant (4)
+    6 Capitaine (4)
+    7 Commandant (3)
+    8 Colonel (2)
+    9 Général (1)
+    10 Maréchal (1)
+    11 Bombe (6)
+
+Disposition des pièces
+----------------------
+
+On doit disposer stratégiquement les pièces de façon à ce que l'attaque et la défense se déploient 
+en faveur de chaque joueur qui les déplace.
+
+Il y a deux camps: les rouges et les bleus. Les rouges commencent.
+
+Les deux rangs de cases du milieu restent inoccupés, de même que les deux lacs à travers lesquels les 
+deux armées ne peuvent pas se mouvoir au cours du jeu.
+
+La disposition des pièces doit être étudiée d'après les règles du jeu d'une part, et suivant 
+l'inspiration stratégique du joueur d'autre part.
+
+Tour de jeu
+-----------
+
+A tour de rôle, les joueurs peuvent déplacer une de leurs pièces d'une case à la fois, soit en avant ou 
+en arrière, soit latéralement à gauche ou à droite. Seul l'éclaireur a le droit en un coup, de sauter 
+par dessus plus d'une case libre, cependant pas plus loin que la case devant ou à côté d'un adversaire, 
+ce par quoi il trahit naturellement son rang.
+
+Une pièce ne pourra également faire plus de 3 aller retours vers un même case. Dans quel cas, ce dernier
+ne pourra plus se déplacer vers cette même case.
+
+Le drapeau et les bombes ne doivent pas être déplacés et restent donc pendant tout le jeu sur les cases 
+où ils ont été placés au début. Lorsque les bleus et les rouges se sont rapprochés (les pièces se trouvant 
+soit face à face, soit à côté les unes des autres) le joueur peut prendre une de ses pièces. Si c'est une 
+pièce d'un rang inférieur, elle est alors enlevée et la pièce de rang supérieur prend la place devenue libre. 
+Si cependant la pièce de l'adversaire est d'un rang supérieur, alors la pièce de rang inférieur disparaît et 
+la pièce de rang supérieur reste à sa place.
+
+En cas de rangs identiques, les deux pièces tombent.
+
+L'espion tombe devant les éclaireurs, ceux-ci tombent devant les démineurs, les démineurs tombent devant les 
+sergents, les sergents devant les lieutenants, etc. Si toutes les pièces se trouvent rapprochées, il n'est 
+pas nécessaire d'attaquer immédiatement; l'initiative de l'attaque peut venir de chacun des deux joueurs. 
+
+Chaque pièce, quoi que soit son rang, sauf un démineur, tombe contre une bombe qui, rappelons-le, ne doit 
+pas être déplacée. Seul un démineur est en mesure de détruire une bombe, après quoi elle doit être retirée 
+du jeu.
+
+Le drapeau, qui ne doit pas être déplacé, tombe devant n'importe quelle pièce de l'adversaire. Le maréchal, 
+le plus haut en grade, tombe seulement devant l'espion, s'il est pris par le dernier. Quand, au contraire, 
+le maréchal touche à l'espion, ce dernier tombe.
+
+Si un joueur ne peut plus déplacer aucune de ses pièces, par exemple lorsqu'il n'a plus que des bombes et le 
+drapeau, il doit capituler, donc il perd. C'est le joueur qui réussit à s'emparer du drapeau de son adversaire, 
+qui est le gagnant.
+
