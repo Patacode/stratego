@@ -78,8 +78,8 @@ les rendre accessible à l'application, il est nécessaire d'ajouter une étape 
 Cette étape peut être réalisée directement en ligne de commande suite à la compilation du projet:
 
 ```
-[~/dev4-stratego-pha-01] cd build*/
-[~/dev4-stratego-pha-01] make install
+[~/stratego] cd build*/
+[~/stratego] make install
 ```
 
 ### Exécution
@@ -90,7 +90,7 @@ l'exécutable fournis par qt lors de la compilation.
 En ligne de commande (pour l'application en terminal):
 
 ```
-[~/dev4-stratego-pha-01] ./build*/src/tui/tui
+[~/stratego] ./build*/src/tui/tui
 ```
 
 Et via l'IDE (toujours pour l'application en terminal):
@@ -101,7 +101,7 @@ L'application supporte également un mode de jeu supplémentaire auquel vous pou
 vous faut rajouter un argument de ligne de commande. Soit via la terminal:
 
 ```
-[~/dev4-stratego-pha-01] ./build*/src/tui/tui reveal
+[~/stratego] ./build*/src/tui/tui reveal
 ```
 
 Soit via l'IDE:
@@ -141,6 +141,5 @@ Voici une demo de comment l'application graphique s'exécute:
 
 Ce projet a été réalisé par:
 
-* Alexandra Demarteau (52068)
-* Maximilien Ballesteros (56080)
-
+* Maximilien Ballesteros
+* Alexandra Demarteau
